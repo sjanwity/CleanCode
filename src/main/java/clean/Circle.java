@@ -1,10 +1,11 @@
 package main.java.clean;
 
 public class Circle implements Shape {
-	private int radius;
+	private double radius;
 	private int corners;
 
-	public Circle(int radius) {
+
+	public Circle(double radius) {
 		this.radius = radius;
 		this.corners = 0;
 	}
